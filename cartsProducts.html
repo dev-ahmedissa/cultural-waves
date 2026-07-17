@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-light w-100 px-4" style="z-index: 100;">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand text-dark mb-1" href="index.html"><img src="images/img0.png" alt="" class="w-25 rounded-circle" style="max-height: 300px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto" id="links">
+                        <li class="nav-item me-2">
+                        <a class="btn btn-outline-primary mb-1" href="login.html" target="_blank">Login</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="btn btn-outline-success" href="register.html" target="_blank">Register</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto" id="user_info">
+                        <li><a href="#" id="user" class="btn btn-outline-primary"></a></li>
+                        <li class="shopping-cart align-content-center mx-3">
+                            <i class="fa fa-shopping-cart text-primary"></i>
+                            <span class="badge text-primary">0</span>
+                            <div class="carts-products position-absolute top-100 px-5 py-2 bg-light border rounded-3" style="right: 0; z-index: 100;">
+                                <div></div>
+                                <a href="cartsproducts.html" class="text-decoration-none d-block text-center">View All Products</a>
+                            </div>
+                        </li>
+                        <li><a href="#" id="Logout" class="btn btn-outline-danger">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="ms-auto row g-4 products mt-5">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 cartproduct">
+                
+            </div>
+        </div>
+  </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/user.js"></script>
+</body>
+</html>

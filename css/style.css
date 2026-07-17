@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    transition: 0,45;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;  
+    border-radius: 8px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+#user_info{
+    display: none;
+}
+#user_info .shopping-cart i{
+    cursor: pointer;
+}
+.carts-products{
+    display: none;
+}
+.cartproduct{
+    height: 250px;
+    width: 100%;
+}
